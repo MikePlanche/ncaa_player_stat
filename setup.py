@@ -13,5 +13,5 @@ setup(name='second',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/second-run'],
+      scripts=['scripts/second-run','scripts/stat_player'],
       zip_safe=False)

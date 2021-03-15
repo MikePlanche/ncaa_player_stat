@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import sys
+from second.stat_player import stat_player
+
+args=sys.argv
+
+stat_player(args[1])
